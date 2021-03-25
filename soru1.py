@@ -1,6 +1,6 @@
 # minimum 5 basamaklı integer girdi sayı ile diziye aktarma ve ters dönüşümü uygulama
 class Soru1:
-    def __init__(self, sayi) -> None:
+    def __init__(self, sayi):
         self.sayi =sayi
         self.copy=sayi
         self.basamak=self.basamak()
