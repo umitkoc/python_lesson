@@ -21,7 +21,7 @@ class Soru1:
             sayi+=self.array[i]*(10**i)
             i-=1
         print(sayi)
-        # recursion
+        # recursive
     def basamak(self,i=0):
         if self.sayi<=0.9:
             return i
