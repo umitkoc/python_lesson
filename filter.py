@@ -8,7 +8,7 @@ def adult(x):             #or lambda x:x>18
 list(filter(adult,age))
 
 #example
-list(filter(lambda x:x>18,age))
+print(list(filter(lambda x:x>18,age)))
 
 #example
 users=[
