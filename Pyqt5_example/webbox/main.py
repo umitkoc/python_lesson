@@ -16,6 +16,7 @@ class Main(QMainWindow):
         self.home_design()
         self.shortcut()
         
+        
     def home_design(self):
         self.setWindowTitle("WEBBOX")
         self.resize(1920,1080)
